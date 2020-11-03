@@ -38,10 +38,8 @@ X_test = sc.transform(X_test)
 
 # Importing the Keras libraries and packages
 import keras
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import LeakyReLU,PReLU,ELU
-from keras.layers import Dropout
+from keras.models import Sequential 
+from keras.layers import Dense, LeakyReLU, PReLU, ELU, Dropout
 
 
 # Initialising the ANN
